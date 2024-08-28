@@ -1,0 +1,56 @@
+.order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+    border: 1px solid tomato;
+    padding: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+    color: #404040;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-item-food, .order-item-name {
+    font-weight: 600;
+    color: #333;
+}
+
+.order-item-name {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.order-item-address {
+    margin-bottom: 8px;
+}
+
+.order-item select {
+    background-color: #ffe8e4;
+    border: 1px solid tomato;
+    width: auto;
+    min-width: 120px;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    .order-item {
+        font-size: 12px;
+        grid-template-columns: 0.5fr 2fr 1fr;
+        padding: 12px;
+    }
+
+    .order-item select {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .order-item img {
+        width: 40px;
+    }
+}

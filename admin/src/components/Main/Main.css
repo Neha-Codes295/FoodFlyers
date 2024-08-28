@@ -1,0 +1,34 @@
+.main-container {
+    display: flex;
+    max-height: 40vh;
+    max-width: 100vh;
+    background-color: #f4f4f4;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+.content p {
+    max-width: 600px;
+    text-align: center;
+    color: black;
+    line-height: 1;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+.content p.hidden {
+    opacity: 0;
+}
