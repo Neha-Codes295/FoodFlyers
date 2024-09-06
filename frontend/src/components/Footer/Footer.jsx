@@ -27,13 +27,13 @@ const Footer = () => {
             <h2>GET IN TOUCH</h2>
             <ul>
                 <li>+1-355-494-2489</li>
-                <li>contact@tomato.com</li>
+                <li>contact@FoodFlyers.com</li>
             </ul>
         </div>
       </div>
     <hr />
 
-    <p className="footer-copyright">Copright 2024 &copy; Tomato.com - All Rights Reserved.</p>
+    <p className="footer-copyright">Copright 2024 &copy; FoodFlyers.com - All Rights Reserved.</p>
     </div>
   )
 }
