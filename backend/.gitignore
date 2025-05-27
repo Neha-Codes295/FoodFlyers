@@ -22,4 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# .gitignore
 .env
+# .env
+backend/.env
